@@ -29,6 +29,10 @@ Raccolta dei miei progetti principali in Data Science, Machine Learning e Comput
 - **Mini abstract**: Pipeline video per tracking multi-oggetto con Kalman filter, estrazione traiettorie, heatmap e analisi comportamentale pre/post trattamento.
 - **Stack**: Python, OpenCV, FilterPy, SciPy, Pandas.
 
+### 6) Market Score (AI Financial Research Platform)
+- **Repo**: [market-score](https://github.com/Bottins/market-score)
+- **Mini abstract**: Piattaforma per ricerca finanziaria assistita da AI: pipeline automatizzata che scarica dati di mercato, calcola metriche quantitative su ~100 ticker, integra contesto news e genera analisi strutturate tramite LLM, con ranking finale visualizzato in dashboard web.
+- **Stack**: Python, FastAPI, Pandas, NumPy, scikit-learn, OpenAI API, React, Vite, Recharts, yfinance.
 ---
 
 ## Nota
