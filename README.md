@@ -5,7 +5,7 @@ Raccolta dei miei progetti principali in Data Science, Machine Learning e Comput
 ## Progetti
 
 ### 1) Leaf Detection with YOLOv8
-- **Repo**: [Leaf_Yolo_tuning](https://github.com/Bottins/Leaf_Yolo_tuning)
+- **Repo**: [Leaf-YOLOv8-Tuning](https://github.com/Bottins/Leaf-YOLOv8-Tuning)
 - **Mini abstract**: End-to-end computer vision pipeline for automated leaf detection using YOLOv8. Includes dataset preparation, model training/fine-tuning, TensorFlow Lite export for edge deployment, and comprehensive evaluation metrics (mAP 0.70, precision 0.684).
 - **Stack**: Python, PyTorch, Ultralytics YOLOv8, OpenCV, TensorFlow Lite, Pandas.
 
