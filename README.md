@@ -1,43 +1,55 @@
-﻿# Portfolio Progetti - Index
+# Portfolio Progetti - Index
 
 Raccolta dei miei progetti principali in Data Science, Machine Learning e Computer Vision.
 
 ## Progetti
 
-### 1) Analisi VOCs (PTR-MS)
+### 1) Leaf Detection with YOLOv8
+- **Repo**: [Leaf_Yolo_tuning](https://github.com/Bottins/Leaf_Yolo_tuning)
+- **Mini abstract**: End-to-end computer vision pipeline for automated leaf detection using YOLOv8. Includes dataset preparation, model training/fine-tuning, TensorFlow Lite export for edge deployment, and comprehensive evaluation metrics (mAP 0.70, precision 0.684).
+- **Stack**: Python, PyTorch, Ultralytics YOLOv8, OpenCV, TensorFlow Lite, Pandas.
+
+### 2) Analisi VOCs (PTR-MS)
 - **Repo**: [analisi-vocs](https://github.com/Bottins/analisi-vocs)
-- **Mini abstract**: Pipeline completa per analisi VOC da export PTR-MS: cleaning, split temporale multi-run, aggregazione repliche, sottrazione blank, confronto statistico e PCA.
+- **Mini abstract**: Standalone analytical pipeline for Volatile Organic Compound (VOC) data from PTR-MS instruments. Performs time-series analysis, anomaly detection, blank subtraction, replicate aggregation, and PCA for experimental VOC datasets.
 - **Stack**: Python, Pandas, NumPy, SciPy, scikit-learn, Matplotlib.
 
-### 2) PINN Inverse per Gray-Scott
+### 3) PINN Inverse per Gray-Scott
 - **Repo**: [pinn-gray-scott-inverse](https://github.com/Bottins/pinn-gray-scott-inverse)
 - **Mini abstract**: Inferenza inversa dei parametri del modello Gray-Scott con Physics-Informed Neural Networks, più confronto con approcci data-driven (CNN/LSTM).
 - **Stack**: Python, PyTorch, NumPy, Matplotlib.
 
-### 3) Pricing Trasporti
+### 4) Transportation Pricing ML
 - **Repo**: [pricing-trasporti-ml](https://github.com/Bottins/pricing-trasporti-ml)
-- **Mini abstract**: Pipeline end-to-end per pricing trasporti: EDA, preprocessing, attualizzazione, matching ordini/quotazioni, benchmark modelli e training finale.
-- **Stack**: Python, Pandas, scikit-learn, LightGBM/XGBoost.
+- **Mini abstract**: End-to-end machine learning system for predictive transportation pricing. Six-stage pipeline with feature engineering, inflation adjustment, order-quote matching, and model benchmarking (Linear, RF, GB, XGBoost). Achieves R² 0.86 on freight pricing forecasts.
+- **Stack**: Python, Pandas, scikit-learn, XGBoost, Matplotlib.
 
-### 4) Topological-Adam Optimizer
+### 5) Topological-Adam Optimizer
 - **Repo**: [topological-adam-optimizer](https://github.com/Bottins/topological-adam-optimizer)
-- **Mini abstract**: Implementazione sperimentale di un ottimizzatore Adam topology-aware per grafi, con test comparativi su topologie sintetiche.
-- **Stack**: Python, PyTorch, NetworkX.
+- **Mini abstract**: Experimental PyTorch optimizer extending Adam with topology-aware learning rate scaling based on graph structural metrics (centrality, degree distribution). Designed for Graph Neural Networks with 1.5x convergence speedup on benchmark graphs.
+- **Stack**: Python, PyTorch, NetworkX, NumPy.
 
-### 5) Tracking Insetti (Bees Pipeline)
+### 6) Insect Behavioral Tracking
 - **Repo**: [tracking-insetti-bees-pipeline](https://github.com/Bottins/tracking-insetti-bees-pipeline)
-- **Mini abstract**: Pipeline video per tracking multi-oggetto con Kalman filter, estrazione traiettorie, heatmap e analisi comportamentale pre/post trattamento.
-- **Stack**: Python, OpenCV, FilterPy, SciPy, Pandas.
+- **Mini abstract**: Computer vision pipeline for automated multi-object tracking and behavioral quantification of insects from video. Kalman filter-based tracking, spatial heatmaps, velocity/acceleration metrics, and interaction detection. 94% track continuity on benchmark videos.
+- **Stack**: Python, OpenCV, FilterPy, SciPy, Pandas, Matplotlib.
 
-### 6) Market Score (AI Financial Research Platform)
+### 7) Market Score (AI Financial Research Platform)
 - **Repo**: [market-score](https://github.com/Bottins/market-score)
-- **Mini abstract**: Piattaforma per ricerca finanziaria assistita da AI: pipeline automatizzata che scarica dati di mercato, calcola metriche quantitative su ~100 ticker, integra contesto news e genera analisi strutturate tramite LLM, con ranking finale visualizzato in dashboard web.
+- **Mini abstract**: AI-powered financial research platform analyzing ~100 tickers per run. Automated pipeline for market data ingestion, quantitative metrics calculation (Sharpe, Sortino, RSI, momentum), news context aggregation, and LLM-generated structured analysis via OpenAI Batch API. Includes FastAPI backend and React dashboard.
 - **Stack**: Python, FastAPI, Pandas, NumPy, scikit-learn, OpenAI API, React, Vite, Recharts, yfinance.
+
+### 8) Scientific ML LLM Fine-Tuning
+- **Repo**: [LLM_tuning](https://github.com/Bottins/LLM_tuning)
+- **Mini abstract**: Production-ready pipeline for fine-tuning large language models (Qwen3) on Scientific Machine Learning Q&A datasets. Supports single-GPU training with 4-bit QLoRA and multi-node distributed training with FSDP (16+ GPUs). HPC-ready with PBS job scripts for CINECA supercomputing cluster.
+- **Stack**: Python, PyTorch, Hugging Face Transformers, PEFT, Accelerate, BitsAndBytes.
 ---
 
-## Nota
+## Note
 
-I dataset pesanti e i dati sensibili non sono inclusi nelle repo pubbliche.
-Ogni repository contiene README, struttura cartelle e istruzioni di caricamento dati.
+- **Documentation Language**: All repository READMEs are written in professional English for international accessibility
+- **Data Privacy**: Large datasets and sensitive data are not included in public repositories
+- **Repository Contents**: Each repository includes comprehensive README, project structure, and data loading instructions
+- **CV-Ready**: All documentation is formatted for professional portfolio and CV presentation
 
 
