@@ -54,22 +54,4 @@ Raccolta dei miei progetti principali in Data Science, Machine Learning e Comput
 
 ---
 
-## Statistics
-
-- **Total Projects**: 8
-- **Primary Domains**: Computer Vision (3), Machine Learning (3), Deep Learning (2), Full-Stack Development (1), HPC (1)
-- **Tech Stack Coverage**: PyTorch, TensorFlow, scikit-learn, OpenCV, FastAPI, React, Hugging Face, OpenAI API
-- **Research Areas**: Object detection, multi-object tracking, financial AI, LLM fine-tuning, graph optimization, chemical sensing, physics-informed ML
-
-## Notes
-
-- **Documentation Language**: All repository READMEs are written in professional English for international accessibility
-- **Data Privacy**: Large datasets and sensitive data are not included in public repositories
-- **Repository Contents**: Each repository includes comprehensive README, project structure, and data loading instructions
-- **CV-Ready**: All documentation is formatted for professional portfolio and CV presentation
-- **Production Quality**: Projects include performance benchmarks, deployment instructions, and best practices
-
----
-
-**Last Updated**: March 2026
 **GitHub**: [github.com/Bottins](https://github.com/Bottins)
