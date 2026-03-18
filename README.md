@@ -52,6 +52,12 @@ Raccolta dei miei progetti principali in Data Science, Machine Learning e Comput
 - **Stack**: Python, PyTorch, NumPy, Matplotlib.
 - **Highlights**: Physics-informed deep learning, inverse problem solving, PDE parameter estimation, scientific computing.
 
+### 9) Monte Carlo Black-Scholes (Multi-Dimensional)
+- **Repo**: [montecarlo-blackscholes](https://github.com/Bottins/MonteCarlo_BlackScholes)
+- **Mini abstract**: Research-grade Monte Carlo implementation for pricing and calibrating options under a multi-dimensional Black-Scholes framework. Validated against closed-form analytical solutions (Geometric Basket Call), extended to Arithmetic Basket pricing with Control Variate technique (~99.5% variance reduction), and applied to an inverse problem — recovering implied correlation matrices from observed market prices. Includes systematic noise sensitivity analysis quantifying calibration robustness under realistic bid-ask spread conditions.
+- **Stack**: Python, NumPy, SciPy, Pandas, Matplotlib, yfinance.
+- **Highlights**: Empirically verified O(1/√N) MC convergence, 99.5% variance reduction via Control Variate, inverse problem solved with Brent + L-BFGS-B, multi-strike calibration halves RMSE vs single-strike across all noise levels.
+
 ---
 
 **GitHub**: [github.com/Bottins](https://github.com/Bottins)
